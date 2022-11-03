@@ -98,7 +98,7 @@ If your injectable class shares a name with another injectable class, you can di
 - `DEPENV_EXAMPLES_BIRDS_BIRD` will match any injectable class named `Bird` (case insensitive) in the `examples.birds` (case insensitive) module.
 - `DEPENV_examples_birds_Bird` will match the injectable class named `Bird` (case sensitive) in the `examples.birds` (case sensitive) module.
 
-Because `.` is in invalid charcter in environment variable names, Depenv uses `_` in its place. Consequently, all of the following will matchthe environment variable `DEPENV_examples_birds_Bird`:
+Because `.` is in invalid charcter in environment variable names, Depenv uses `_` in its place. Consequently, all of the following will match the environment variable `DEPENV_examples_birds_Bird`:
 
 - `examples.birds.Bird`
 - `examples.birds_Bird`
